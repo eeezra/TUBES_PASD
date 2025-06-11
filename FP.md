@@ -1,1 +1,0 @@
-Dokumentasi FP(1)
