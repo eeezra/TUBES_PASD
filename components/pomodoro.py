@@ -1,4 +1,6 @@
 # OOP Class untuk fitur pomodoro timer
+from datetime import datetime, timedelta
+
 class PomodoroTimer:
     def _init_(self, duration: int, break_duration: int):
         self.duration = duration
