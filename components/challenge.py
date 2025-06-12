@@ -1,4 +1,6 @@
 # OOP Class untuk fitur challenge detox
+from datetime import datetime, timedelta
+
 class ChallengeDetox:
     def __init__(self, challenge_name: str, duration: int):
         self.challenge_name = challenge_name
