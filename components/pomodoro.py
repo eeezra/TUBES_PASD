@@ -2,7 +2,7 @@
 from datetime import datetime, timedelta
 
 class PomodoroTimer:
-    def _init_(self, duration: int, break_duration: int):
+    def __init__(self, duration: int, break_duration: int):
         self.duration = duration
         self.break_duration = break_duration
         self.start_time = None
