@@ -43,9 +43,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import pandas as pd
 
-# Load data (pastikan Anda sudah membaca file CSV ke dalam df)
-url = 'https://raw.githubusercontent.com/eeezra/TUBES_PASD/main/dataset%20mobile_usage_behavioral_analysis.csv'
-df = pd.read_csv(url)
+# Load data
+df = pd.read_csv('https://raw.githubusercontent.com/eeezra/TUBES_PASD/main/dataset%20mobile_usage_behavioral_analysis.csv')
 
 # Fitur yang digunakan untuk clustering
 usage_features = ['Daily_Screen_Time_Hours', 'Total_App_Usage_Hours',
