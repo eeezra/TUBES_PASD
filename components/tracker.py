@@ -1,4 +1,6 @@
 #OOP Class untuk fitur sosmed tracking
+from datetime import datetime, timedelta
+
 class SosmedTracking:
     def __init__(self, selected_sosmed: str):
         self.selected_sosmed = selected_sosmed
