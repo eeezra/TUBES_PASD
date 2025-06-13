@@ -7,7 +7,8 @@ from components.challenge import ChallengeDetox
 from components.pomodoro import PomodoroTimer
 from components.tracker import SosmedTracking
 from utils.history import update_history_sosmed
-from m;_model import overuse_threshold, df
+from ml_model import overuse_threshold, df
+
 # UI STYLE
 st.set_page_config(page_title="FocusGuard - Detox App", layout="centered")
 st.markdown("""
